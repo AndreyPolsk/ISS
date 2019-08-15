@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ОТслеживаем МКС</title>
+    <style>
+        @import url("css/style.css");
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+
+<script src="js/script.js">
+</script>
+<div class="time">Time<a href="https://time.is/ru/Kyiv">
+    <form name="clock"><input size="30" name="full"></form></a>
+
+<script language="JavaScript">
+    fulltime();
+</script> </div>
+<div id="map"></div>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC79J1Wq5-__CELW65VTnKF-Sk-xoQxreI&callback=initMap">
+</script>
+
+
+
+<section>
+    <div class="item">
+        <p>ISS is now located at: </p>
+        <p>longitude <div id="longit"></div> </p>
+        <p>latitude <div id="latit"></div></p>
+    </div>
+    <div class="divider"></div>
+    <div class="item">
+        <table><p>Number of people in ISS: <div id="show-data5"></div><div id="show-data6"></div></p></table>
+    </div>
+    <div class="divider"></div>
+    <div class="item">
+        <p>Crew: </p>
+        <p><div id="show-crew"></div></p>
+    </div>
+</section>
+</body>
+</html>

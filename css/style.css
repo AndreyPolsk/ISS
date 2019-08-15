@@ -1,0 +1,41 @@
+#map {
+    height: 400px;
+    margin: 0 2%;
+    width: 38%;
+       }
+
+
+section {
+
+    border: 4px inset greenyellow;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 0 2%;
+    width: 37.5%;
+    background: #E6EDF4;
+}
+
+section > * {
+    margin: 0 8px;
+}
+
+.divider {
+    width: 2px;
+    margin: 6px 0;
+    background: blue;
+}
+
+.item {
+
+    flex: 0 1 auto;
+ }
+.time{
+    border: 4px inset #ECF4EC;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 0 2%;
+    width: 37.5%;
+    background: #E6EDF4;
+}
